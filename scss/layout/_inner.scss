@@ -1,0 +1,8 @@
+.inner{
+    padding-left: 250px;
+    padding-right: 250px;
+    @include lowerTab{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
